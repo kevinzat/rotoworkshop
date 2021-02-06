@@ -1,0 +1,15 @@
+UI changes
+ - new table: upload or import fixed list
+ - scroll table left/right columns and up/down rows
+
+UI table
+ * [query builder can execute on random samples as you type]
+
+
+Models
+* Nearest neighbor
+* Markov / ranking model
+
+Features
+* SQL engine / query builder
+* Optimizer

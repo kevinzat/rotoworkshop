@@ -1,0 +1,21 @@
+A.header-sortable {
+  color: white;
+  text-decoration: none;
+}
+
+A.header-sortable:hover {
+  text-decoration: underline;
+}
+
+TABLE.my-table {
+  /* width: 1px;  /* size to content */
+}
+
+TD.table-cell, TH.table-cell {
+  text-align: center;
+}
+
+TD.lg-table-cell, TH.lg-table-cell {
+  text-align: center;
+  min-width: 100px;
+}

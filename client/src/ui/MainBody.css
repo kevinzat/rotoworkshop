@@ -1,0 +1,6 @@
+A.action-tab {
+  color: black;
+}
+
+A.small-link { color: black; text-decoration: none; }
+A.small-link:hover { color: black; text-decoration: underline; }

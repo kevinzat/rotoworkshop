@@ -1,0 +1,22 @@
+# [START app_yaml]
+runtime: nodejs10
+handlers:
+  - url: /
+    static_files: public/index.html
+    upload: public/index.html
+  - url: /favicon.ico
+    static_files: public/favicon.ico
+    upload: public/favicon.ico
+  - url: /rw.png
+    static_files: public/rw.png
+    upload: public/rw.png
+  - url: /([^/]*\.js)
+    static_files: public/\1
+    upload: public/([^/]*\.js)
+  - url: /static/(.*)
+    static_files: public/static/\1
+    upload: public/static/(.*)
+  - url: /examples/([^/]*\.csv)
+    static_files: public/examples/\1
+    upload: public/examples/([^/]*\.csv)
+# [END app_yaml]

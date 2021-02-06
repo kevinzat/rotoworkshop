@@ -1,0 +1,13 @@
+.nav-link .active {
+  background-color: rgb(255,0,0);
+}
+
+.table-link {
+  color: black;
+  text-decoration: none;
+}
+
+.table-link:hover {
+  color: black;
+  text-decoration: underline;
+}

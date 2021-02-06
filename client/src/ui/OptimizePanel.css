@@ -1,0 +1,10 @@
+BUTTON.remove {
+  color: #c1c6cc;
+}
+BUTTON.remove:hover {
+  color: rgb(104, 114, 122);
+}
+
+SPAN.bad-value {
+  color: rgb(252, 62, 67);
+}
